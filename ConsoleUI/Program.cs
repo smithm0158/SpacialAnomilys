@@ -56,7 +56,7 @@ namespace ConsoleUI
                 else if (input == "3")
                 {
                     
-                    Console.WriteLine(Attack.Attacking());
+                    Console.WriteLine("Your health is: " +Attack.Attacking());
                     Console.WriteLine();
                 }
 
